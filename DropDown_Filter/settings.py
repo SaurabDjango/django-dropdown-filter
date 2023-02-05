@@ -40,7 +40,9 @@ INSTALLED_APPS = [
     'user',
     'branch',
     'college',
+    'crispy_forms',
 ]
+CRISPY_TEMPLATE_PACK = 'uni_form'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
